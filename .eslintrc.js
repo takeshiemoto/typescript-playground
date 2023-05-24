@@ -5,9 +5,12 @@ module.exports = {
   },
   extends: ["eslint:recommended", "prettier"],
   overrides: [],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    "no-unused-vars": "off",
+  },
 };
