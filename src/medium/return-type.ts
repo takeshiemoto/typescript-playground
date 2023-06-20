@@ -1,5 +1,4 @@
 // inferを使った推論で返す
-// Tは関数のみ
 // Tの戻り値にinferを書けば推論可能
 
 const fn = (v: boolean) => {
