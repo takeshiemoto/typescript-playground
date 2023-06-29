@@ -1,3 +1,5 @@
+import { run } from "./medium/last-of-array";
+
 export function main() {
-  console.log("Hello World!");
+  run();
 }
