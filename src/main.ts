@@ -1,4 +1,4 @@
-import { run } from "./medium/last-of-array";
+import { run } from "./medium/pop";
 
 export function main() {
   run();
